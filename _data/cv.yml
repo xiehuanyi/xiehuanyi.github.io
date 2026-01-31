@@ -1,14 +1,24 @@
 cv:
   name: Huanyi Xie
-  label: Data Science Master Student
-  email: huanyiiiii@outlook.com
+  label: MS/PhD Student
+  email: huanyi.xie@kaust.edu.sa
   phone: "+46 763974537"
-  location: Sweden
+  location: Saudi Arabia
   image: ""
-  summary: Data Science Master Student at KTH Royal Institute of Technology. Exploring AI, LLMs, and Data Science.
+  summary: MS/PhD Student at King Abdullah University of Science and Technology (KAUST). Exploring AI, LLMs, and Data Science.
 
   sections:
     Education:
+      - institution: King Abdullah University of Science and Technology (KAUST)
+        location: Saudi Arabia
+        url: https://www.kaust.edu.sa/
+        area: Computer Science
+        studyType: MS/PhD
+        start_date: 2026-01
+        end_date: Present
+        score: ""
+        highlights: []
+
       - institution: Royal Institute of Technology (KTH)
         location: Sweden
         url: https://www.kth.se/
