@@ -1,11 +1,12 @@
 cv:
   name: Huanyi Xie
-  label: MS/PhD Student
+  label: MS/PhD Student in Computer Science
   email: huanyi.xie@kaust.edu.sa
-  phone: "+46 763974537"
+  phone: "+966 54 941 9078"
   location: Saudi Arabia
+  website: https://xiehuanyi.github.io
   image: ""
-  summary: MS/PhD Student at King Abdullah University of Science and Technology (KAUST). Exploring AI, LLMs, and Data Science.
+  summary: MS/PhD student at King Abdullah University of Science and Technology (KAUST), advised by Prof. Di Wang. I work on efficient training and inference of large language models, including LLM serving, memory-efficient fine-tuning, and data attribution.
 
   sections:
     Education:
@@ -14,99 +15,80 @@ cv:
         url: https://www.kaust.edu.sa/
         area: Computer Science
         studyType: MS/PhD
-        start_date: 2026-01
+        start_date: 2025-08
         end_date: Present
+        highlights:
+          - Advised by Prof. Di Wang.
 
-      - institution: Royal Institute of Technology (KTH)
+      - institution: KTH Royal Institute of Technology
         location: Sweden
         url: https://www.kth.se/
         area: Data Science
-        studyType: Master
-        start_date: 2024-09
-        end_date: 2026-06
-        score: ""
-        highlights:
-          - QS Top100
+        studyType: M.Sc.
+        start_date: 2024-08
+        end_date: 2025-06
 
       - institution: Harbin Institute of Technology, Weihai
         location: China
         url: http://en.hit.edu.cn/
-        area: Artificial Intelligence, Department of Computer Science
-        studyType: Bachelor
+        area: Artificial Intelligence
+        studyType: B.Eng.
         start_date: 2020-09
         end_date: 2024-06
-        score: "GPA: 87.37/100"
-        highlights:
-          - 985, 211, Double 1st-Class
 
-    Research Experience:
-      - company: Harbin Institute of Technology
-        position: Participant in the development of Large Language Model (Huozi)
-        location: Department of Computer Science, Harbin Institute of Technology
-        start_date: 2023-04
-        end_date: 2023-09
-        highlights:
-          - "Researched methods for generating instructions and dialogue data. Took inspiration from Google's T5-flan instruction dataset generation, Stanford's Alpaca model, and the data generation paradigm of the Chinese large language model project, Baize."
-          - "Leveraged GPT-3.5 and GPT-4 to create large-scale instruction and dialogue datasets."
-          - "Cleaned the instruction and dialogue data through techniques such as filtering out abnormal data and deduplicating similar entries."
+    Publications:
+      - title: Efficient Text-Attributed Graph Learning through Selective Annotation and Graph Alignment
+        publisher: TMLR
+        releaseDate: 2026
+        summary: Huanyi Xie, Lu Yu, Tianhao Huang, Longfei Li, Meng Li, Jun Zhou, Lijie Hu, Di Wang.
 
-      - company: Nanyang Technological University
-        position: Artificial Intelligence Internship Programme
-        location: NTU Business AI Lab, Nanyang Technological University
-        start_date: 2023-01
-        end_date: 2023-03
-        highlights:
-          - "Contributed to a multi-stage model for OCR in videos. It has mainly three parts: text detection (MobileNetV3), bounding box correction (MobileNetV3), and text recognition (CRNN)."
-          - "Overall Grade: Distinction"
+      - title: High-Throughput and Memory-Efficient Zeroth-Order Fine-tuning LLMs with Distributed Parallel Computing
+        publisher: ACL
+        releaseDate: 2026
+        summary: Liangyu Wang, Huanyi Xie, Di Wang.
 
-    Projects:
-      - name: Automatic Dialogue Video Generation Demo
-        start_date: 2023-08
-        end_date: 2023-09
-        summary: Principal Investigator.
-        highlights:
-          - "Used web scraping techniques to retrieve background information data on specified topics for Retrieval Augmented Generation."
-          - "Designed stable and personalized prompts for large language models using prompt engineering techniques."
-          - "Designed a pipeline for script generation, video generation, and TTS (Text-to-Speech)."
-          - "Built a frontend user interface using Gradio."
+      - title: Predicting LLM Output Length via Entropy-Guided Representations
+        publisher: ICLR
+        releaseDate: 2026
+        summary: Huanyi Xie, Yubin Chen, Liangyu Wang, Lijie Hu, Di Wang.
 
-      - name: Adaptation in the machine translation domain based on PaddleNLP
-        start_date: 2022-11
-        end_date: 2023-01
-        summary: Principal Investigator.
-        highlights:
-          - "Implemented a transformer model and conducted experiments on three datasets: Oral (186,970 samples), Patent (100,000 samples), and Medical (100,000 samples)."
-          - "Tested the feasibility of machine translation knowledge transfer. Results showed that applying the pretrained model to patent content improved performance by 37%, and further fine-tuning on the patent dataset led to an additional 30% enhancement in translation quality."
+      - title: Dissecting Representation Misalignment in Contrastive Learning via Influence Function
+        publisher: ICLR
+        releaseDate: 2026
+        summary: Huanyi Xie, Chenyang Ren, Khouloud Saadi, Shu Yang, Zhen Tan, Jingfeng Zhang, Lijie Hu, Di Wang.
 
-      - name: AI Traditional Chinese Medicine Diagnosis
-        start_date: 2022-11
-        end_date: 2023-01
-        summary: Principal Investigator.
-        highlights:
-          - "Used Ernie-3.0-zh series of models to classify 148 different Chinese medicine syndrome types."
-          - "Designed a series of experiments to verify the impact of different model sizes and different model inputs on model performance."
+      - title: Evaluating Data Influence in Meta Learning
+        publisher: ICLR
+        releaseDate: 2026
+        summary: Chenyang Ren, Huanyi Xie, Shu Yang, Meng Ding, Dongrui Liu, Lijie Hu, Di Wang.
 
-    Extracurricular Activities:
-      - company: Baidu PaddlePaddle Developer Groups
-        position: Regional Director
-        location: Harbin Institute of Technology (Weihai)
-        start_date: 2022-06
-        end_date: 2023-06
-        highlights:
-          - "Organized competitions and events related to artificial intelligence, such as hosting multiple campus AI Days, internal AI competitions, AI lectures, and other artificial intelligence-related activities."
-          - "Promoted the PaddlePaddle AI framework."
-          - "Coordinated the activity applications and organization of the PaddlePaddle Navigator teams at universities within Shandong Province."
+      - title: "ZO2: Scalable Zeroth-Order Fine-Tuning for Extremely Large LMs with Limited GPU Memory"
+        publisher: COLM
+        releaseDate: 2025
+        summary: Liangyu Wang, Jie Ren, Hang Xu, Junxiao Wang, Huanyi Xie, David E. Keyes, Di Wang.
 
-      - company: MAY Foundation Online Volunteer Teaching Service Learning Program
-        position: Volunteer
-        start_date: 2021-03
-        end_date: 2021-07
-        highlights:
-          - "Provided online tutoring for a fifth-grade elementary school student in a remote area who is facing difficulties in learning mathematics."
-          - "Explored key concepts, went over incorrect problems, and assisted him in improving his grades. Ultimately, there was significant improvement in his academic performance."
+      - title: Semi-supervised Concept Bottleneck Models
+        publisher: ICCV
+        releaseDate: 2025
+        summary: Lijie Hu, Tianhao Huang, Huanyi Xie, Xilin Gong, Chenyang Ren, Zhengyu Hu, Lu Yu, Ping Ma, Di Wang.
 
-    Honors & Awards:
-      - title: Honorable Mention at The Mathematical Contest of Modeling
+    Open Source Projects:
+      - name: nanoSGLang
+        url: https://github.com/xiehuanyi/nanoSGLang
+        summary: Minimal LLM Serving Engine.
+        highlights:
+          - Built a high-performance LLM serving engine from scratch in Python/PyTorch, implementing continuous batching, chunked prefill, paged KV cache, prefix-sharing radix cache, streaming API, and request-level metrics.
+          - Integrated FlashInfer paged attention and fused operators; benchmarked Qwen2.5-0.5B at 3469 tok/s on RTX A5000, exceeding the referenced SGLang baseline in the same workload.
+
+      - name: nanoMegatron
+        url: https://github.com/xiehuanyi/nanoMegatron
+        summary: Minimal Distributed Training Framework.
+        highlights:
+          - Implemented core distributed-training algorithms in a compact educational codebase, including DDP, ZeRO-1/2/3, tensor parallelism, sequence parallelism, pipeline parallelism, and expert parallelism.
+          - Built a working SFT pipeline for Phi-tiny-MoE and GSM8K, with MoE AllToAll dispatch, ZeRO/FSDP-style sharding, and benchmark logs against DeepSpeed/PyTorch FSDP.
+
+    Awards:
+      - title: Honorable Mention, Mathematical Contest in Modeling
         date: 2023-06
         awarder: MCM
 
@@ -114,18 +96,14 @@ cv:
         date: 2022-12
         awarder: Baidu
 
-      - title: Third prize at Baidu Cognitive AI Creative Contest
+      - title: Third Prize, Baidu Cognitive AI Creative Contest
         date: 2022-01
         awarder: Baidu
 
-      - title: Second prize at the National College Student Mathematics Competition (Non-Mathematics Category)
+      - title: Second Prize, National College Student Mathematics Competition (Non-Mathematics Category)
         date: 2021-12
-        awarder: CMS (Chinese Mathematical Society)
+        awarder: Chinese Mathematical Society
 
-      - title: First prize at the China Collegiate Computing Contest Artificial Intelligence Innovation Contest
+      - title: First Prize, China Collegiate Computing Contest Artificial Intelligence Innovation Contest
         date: 2021-11
         awarder: CCCC
-
-      - title: National Aspiration Scholarship
-        date: 2021-11
-        awarder: Ministry of Education of PRC
