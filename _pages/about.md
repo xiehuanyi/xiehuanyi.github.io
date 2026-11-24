@@ -28,7 +28,7 @@ latest_posts:
 
 I am an MS/PhD student in Computer Science at **King Abdullah University of Science and Technology (KAUST)**, advised by **Prof. Di Wang**.
 
-My current work focuses on efficient training and inference of large language models, especially **LLM serving**, **memory-efficient fine-tuning**, and **data attribution**.
+My current work focuses on **agentic recursive self-improvement (RSI)**: agents that do ML research and improve themselves. I also work on efficient training and inference of large language models, including **memory-efficient fine-tuning** and **data attribution**.
 
 Previously, I received my M.Sc. in Data Science from **KTH Royal Institute of Technology** and my B.Eng. in Artificial Intelligence from **Harbin Institute of Technology, Weihai**.
 

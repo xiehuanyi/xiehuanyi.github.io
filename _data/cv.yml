@@ -6,7 +6,7 @@ cv:
   location: Saudi Arabia
   website: https://xiehuanyi.github.io
   image: ""
-  summary: MS/PhD student at King Abdullah University of Science and Technology (KAUST), advised by Prof. Di Wang. I work on efficient training and inference of large language models, including LLM serving, memory-efficient fine-tuning, and data attribution.
+  summary: "MS/PhD student at King Abdullah University of Science and Technology (KAUST), advised by Prof. Di Wang. My current focus is agentic recursive self-improvement (RSI): agents that do ML research and improve themselves. I also work on efficient training and inference of large language models, including memory-efficient fine-tuning and data attribution."
 
   sections:
     Education:
@@ -72,20 +72,20 @@ cv:
         releaseDate: 2025
         summary: Lijie Hu, Tianhao Huang, Huanyi Xie, Xilin Gong, Chenyang Ren, Zhengyu Hu, Lu Yu, Ping Ma, Di Wang.
 
-    Open Source Projects:
-      - name: nanoSGLang
-        url: https://github.com/xiehuanyi/nanoSGLang
-        summary: Minimal LLM Serving Engine.
+    Projects:
+      - name: pi-rsi
+        url: https://github.com/xiehuanyi/pi-rsi
+        summary: Automated Research Harness. [Project page](https://xiehuanyi.github.io/pi-rsi/).
         highlights:
-          - Built a high-performance LLM serving engine from scratch in Python/PyTorch, implementing continuous batching, chunked prefill, paged KV cache, prefix-sharing radix cache, streaming API, and request-level metrics.
-          - Integrated FlashInfer paged attention and fused operators; benchmarked Qwen2.5-0.5B at 3469 tok/s on RTX A5000, exceeding the referenced SGLang baseline in the same workload.
+          - Built and open-sourced a research harness around headless coding agents for hypothesis generation, code implementation, frozen evaluation, and result analysis, with tree search, isolated git worktrees, structured handoffs, budget controls, and failure recovery.
+          - Experiments form a search tree scored by a frozen evaluator, where a gain must clear measured noise; a layered research wiki links hypotheses to supporting and opposing evidence. A 4-day autonomous run on CASMI26 raised MRR from 0.307 to 0.4197.
 
-      - name: nanoMegatron
-        url: https://github.com/xiehuanyi/nanoMegatron
-        summary: Minimal Distributed Training Framework.
+      - name: ZOMoE
+        url: https://github.com/xiehuanyi/ZOMoE-release
+        summary: Zeroth-Order Fine-Tuning of Sparse MoE Models. Submitted to ICLR 2027.
         highlights:
-          - Implemented core distributed-training algorithms in a compact educational codebase, including DDP, ZeRO-1/2/3, tensor parallelism, sequence parallelism, pipeline parallelism, and expert parallelism.
-          - Built a working SFT pipeline for Phi-tiny-MoE and GSM8K, with MoE AllToAll dispatch, ZeRO/FSDP-style sharding, and benchmark logs against DeepSpeed/PyTorch FSDP.
+          - Developed expert-index replay with shared-baseline one-sided estimation to prevent discrete expert switching from contaminating ZO loss comparisons, while recomputing continuous routing weights and expert outputs.
+          - Evaluated OLMoE-1B-7B and Qwen3.5-35B-A3B on six classification tasks; reported configurations improved mean test accuracy over FZOO by 3.23/2.81 percentage points, with at most 0.04 GiB replay memory overhead in matched measurements.
 
     Awards:
       - title: Honorable Mention, Mathematical Contest in Modeling
